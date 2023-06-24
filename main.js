@@ -26,3 +26,14 @@ const colors = [
         size: '10%',
     }
 ];
+
+const squaresDiv = document.getElementById('squares');
+
+for (let i = 0; i < 6; i++) {
+    const newSpan = document.createElement('div');
+    console.log(newSpan)
+    newSpan.style.backgroundColor = colors[i].color;
+    newSpan.style.width = colors[i].size;
+    newSpan.style.height = '80px';
+    squaresDiv.appendChild(newSpan);
+}
