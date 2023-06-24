@@ -36,4 +36,11 @@ for (let i = 0; i < 6; i++) {
     newDiv.style.height = '100px';
     squaresDiv.appendChild(newDiv);
 }
+
+for (let i = 0; i < 6; i++) {
+    const newDiv = document.createElement('div');
+    newDiv.style.backgroundColor = colors[i].color;
+    newDiv.style.width = colors[i].size;
+    newDiv.style.height = '100px';
+    squaresDiv.appendChild(newDiv);
 }
