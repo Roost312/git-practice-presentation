@@ -34,6 +34,6 @@ for (let i = 0; i < 6; i++) {
     console.log(newSpan)
     newSpan.style.backgroundColor = colors[i].color;
     newSpan.style.width = colors[i].size;
-    newSpan.style.height = '80px';
+    newSpan.style.height = '100px';
     squaresDiv.appendChild(newSpan);
 }
