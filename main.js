@@ -30,10 +30,10 @@ const colors = [
 const squaresDiv = document.getElementById('squares');
 
 for (let i = 0; i < 6; i++) {
-    const newSpan = document.createElement('div');
-    console.log(newSpan)
-    newSpan.style.backgroundColor = colors[i].color;
-    newSpan.style.width = colors[i].size;
-    newSpan.style.height = '100px';
-    squaresDiv.appendChild(newSpan);
+    const newDiv = document.createElement('div');
+    newDiv.style.backgroundColor = colors[i].color;
+    newDiv.style.width = colors[i].size;
+    newDiv.style.height = '100px';
+    squaresDiv.appendChild(newDiv);
+}
 }
